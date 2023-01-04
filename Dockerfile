@@ -13,7 +13,7 @@ COPY . /app
 RUN npm install
 
 # Generate the build of the application
-RUN npm run build-dev
+RUN npm run build
 
 # Stage 2: Serve app with nginx server
 FROM ubi8/nginx-118

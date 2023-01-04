@@ -21,8 +21,10 @@ FROM ubi8/nginx-118
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
+COPY /home/user/configMap/config.json /app/dist/sefin-env/assets/config
+
 COPY --from=build /app/dist/sefin-env /usr/share/nginx/html
 
-COPY /home/user/configMap/config.json /usr/share/nginx/html/assets/config
+
 
 CMD nginx -g "daemon off;"

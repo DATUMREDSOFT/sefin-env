@@ -1,5 +1,11 @@
 {
-    "server1": "url1",
-    "server2": "url2",
-    "server3": "url3"
+    "valueRequired": "OWFhM2QyNTkxNWYwMjhkYmYxMTQ3ZTE2NjVkNzc1NmE=",
+    "tokenUrl": "https: //sefin-fe-tokensso-dev.apps.galel.sefin.gob.hn:443/sso/obtenerTokenByAplicacion?idAplicacion=",
+    "urlMttos": "",
+    "urlClasificadoresVirtuales": "https://siret-portal-publico-fe-group-dev.apps.galel.sefin.gob.hn:443/oauthintclas",
+    "urlApiComprobantes": "https://siret-portal-publico-fe-group-dev.apps.galel.sefin.gob.hn:443/oauthcomp",
+    "urlApiClientesPU": "https://siret-portal-publico-fe-group-dev.apps.galel.sefin.gob.hn:443/oauthapiclient/",
+    "urlApiPdfComprobante": "https://siret-portal-publico-fe-group-dev.apps.galel.sefin.gob.hn:443/oauthcomppdf",
+    "urlApiDevolucionCop": "https://siret-portal-publico-fe-group-dev.apps.galel.sefin.gob.hn:443/oauthdevo",
+    "urlApiParametros": "https://siret-portal-publico-fe-group-dev.apps.galel.sefin.gob.hn:443/oauthmttoparam/"
 }

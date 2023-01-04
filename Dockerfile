@@ -18,8 +18,11 @@ RUN npm run build
 # Stage 2: Serve app with nginx server
 FROM ubi8/nginx-118
 
+
 COPY nginx.conf /etc/nginx/nginx.conf
 
 COPY --from=build /app/dist/sefin-env /usr/share/nginx/html
+
+COPY /home/user/configMap/config.json /usr/share/nginx/html/assets/config
 
 CMD nginx -g "daemon off;"
